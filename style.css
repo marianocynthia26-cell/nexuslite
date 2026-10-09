@@ -30,7 +30,7 @@ header p {
     margin-top: 0.5rem;
 }
 
-/* --- Barra de navegación arriba --- */
+/* --- Barra de navegación fija (Sticky) --- */
 nav {
     background-color: #3A1A29;
     padding: 0.8rem;
@@ -84,12 +84,11 @@ h2 {
 }
 
 .tarjeta {
-    width: 280px;
+    width: 220px;
     padding: 20px;
-    margin: 15px;
+    margin: 10px;
     border: 1px solid #2D516F;
     box-sizing: border-box;
-
     background-color: #E8E5DC;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
@@ -107,12 +106,7 @@ h2 {
     margin-top: 0;
 }
 
-ul {
-    margin-left: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-/* --- Información Adicional (aside) --- */
+/* --- Sección Aside / Avisos --- */
 aside {
     background-color: #eaf2f8;
     border-left: 5px solid #2D516F;
@@ -121,7 +115,7 @@ aside {
     border-radius: 4px;
 }
 
-/* --- Formulario --- */
+/* --- Formulario de Contacto --- */
 form {
     background-color: #ffffff;
     padding: 25px;
@@ -180,7 +174,7 @@ footer {
     margin-top: 40px;
 }
 
-/* --- Ajustes responsive para cel (<= 768px) --- */
+/* --- Diseño Responsive (@media query max-width 768px) --- */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
