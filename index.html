@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEXUSTECHLITE: Soluciones integrales de soporte técnico, desarrollo web y redes.">
+    <meta name="keywords" content="soporte técnico, desarrollo web, redes, conectividad, tecnología">
+    <meta name="author" content="NEXUSTECHLITE">
+    <link rel="stylesheet" href="style.css">
+    <title>NEXUSTECHLITE</title>
+</head>
+<body>
+
+    <!-- Encabezado / Hero -->
+    <header>
+        <h1>NEXUSTECHLITE</h1>
+        <p>Innovación y soporte tecnológico para la comunidad</p>
+        <a href="#Contacto" class="boton">Conoce nuestros servicios</a>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Servicios">Servicios</a></li>
+            <li><a href="#Nosotros">Nosotros</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="Inicio">
+            <h2>Bienvenidos a NEXUSTECHLITE</h2>
+            <p>Nuestro servicio ofrece <strong>soporte técnico especializado</strong> para equipos de cómputo y <em>configuración de redes locales</em>.</p>
+        </section>
+
+        <section id="Servicios">
+            <h2>SERVICIOS</h2>
+            <div class="servicios-contenedor">
+                <article class="tarjeta">
+                    <h3>Soporte Técnico</h3>
+                    <p>Asistencia especializada y mantenimiento preventivo/correctivo para equipos de cómputo.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Desarrollo Web</h3>
+                    <p>Diseño y desarrollo de páginas web modernas, adaptables y optimizadas a tus necesidades.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Redes y Conectividad</h3>
+                    <p>Configuración de redes locales, instalación de infraestructura y soluciones de seguridad.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="Nosotros">
+            <h2>Nosotros</h2>
+            <div class="servicios-contenedor">
+                <article class="tarjeta">
+                    <h3>Misión</h3>
+                    <p>Proveer soluciones tecnológicas integrales y accesibles a la comunidad mediante servicios especializados.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Visión</h3>
+                    <p>Consolidarnos como una institución líder y referente en servicios tecnológicos locales.</p>
+                </article>
+            </div>
+        </section>
+
+        <aside>
+            <h3>Avisos Importantes</h3>
+            <p><mark>Atención disponible de lunes a viernes.</mark></p>
+            <p><small>* Sujeto a disponibilidad de horarios.</small></p>
+        </aside>
+
+        <section id="Contacto">
+            <h2>Solicita Información</h2>
+            <p>Completa el siguiente formulario y un asesor de NEXUSTECHLITE se pondrá en contacto con usted.</p>
+            
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre Completo</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div><br>
+
+                <div>
+                    <label for="correo">Correo</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="Ejemplo: @dominio" required>
+                </div><br>
+
+                <div>
+                    <label for="telefono">Teléfono</label><br>
+                    <input type="tel" id="telefono" name="telefono" placeholder="(656)-000-0000" required>
+                </div><br>
+
+                <div>
+                    <label for="servicio">Tipo de servicio</label><br>
+                    <select id="servicio" name="servicio">
+                        <option value="soporte">Soporte Técnico</option>
+                        <option value="web">Desarrollo Web</option>
+                        <option value="redes">Redes y Conectividad</option>
+                    </select>
+                </div><br>
+
+                <div>
+                    <label for="mensaje">Mensaje</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+                </div><br>
+
+                <div>
+                    <button type="submit" class="boton">Enviar Solicitud</button>
+                    <button type="reset" class="boton-secundario">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 NEXUSTECHLITE. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
